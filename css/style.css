@@ -281,8 +281,8 @@ body {
 .footer {
   background-color: #7f292a;
   color: #f2eee8;
-  border-top-right-radius: 0.4375rem;
-  border-top-left-radius: 0.4375rem;
+  border-top-right-radius: 0.625rem;
+  border-top-left-radius: 0.625rem;
 }
 
 .footer__container {
@@ -364,6 +364,10 @@ body {
   font-weight: 500;
 }
 
+.hero__start--accent {
+  color: #7f292a;
+}
+
 .hero__title {
   text-align: center;
   font-weight: 700;
@@ -403,7 +407,7 @@ body {
   margin-bottom: 0.625rem;
   margin-right: auto;
   margin-left: auto;
-  border-radius: 0.1875rem;
+  border-radius: 0.3125rem;
 }
 
 .hero__img--desktop {
@@ -420,7 +424,7 @@ body {
 .practicum {
   background-color: #7f292a;
   color: #f2eee8;
-  border-radius: 0.4375rem;
+  border-radius: 0.625rem;
 }
 
 .practicum__list {
@@ -589,7 +593,7 @@ body {
 .why {
   background-color: #7f292a;
   color: #f2eee8;
-  border-radius: 0.4375rem;
+  border-radius: 0.625rem;
 }
 
 .why__content {
@@ -610,7 +614,7 @@ body {
 }
 
 .why__img {
-  border-radius: 0.1875rem;
+  border-radius: 0.3125rem;
 }
 
 .why__img--desktop {
