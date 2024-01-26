@@ -72,6 +72,10 @@ h6 {
   font-size: inherit;
 }
 
+body {
+  background-color: #f2eee8;
+}
+
 .lock body {
   overflow: hidden;
   -ms-touch-action: none;
@@ -277,6 +281,8 @@ h6 {
 .footer {
   background-color: #7f292a;
   color: #f2eee8;
+  border-top-right-radius: 0.4375rem;
+  border-top-left-radius: 0.4375rem;
 }
 
 .footer__container {
@@ -310,10 +316,6 @@ h6 {
       -ms-flex-align: center;
           align-items: center;
   gap: 0.75rem;
-}
-
-.hero {
-  background-color: #f2eee8;
 }
 
 .hero__container {
@@ -418,6 +420,7 @@ h6 {
 .practicum {
   background-color: #7f292a;
   color: #f2eee8;
+  border-radius: 0.4375rem;
 }
 
 .practicum__list {
@@ -453,10 +456,6 @@ h6 {
   line-height: normal;
   min-width: 17.625rem;
   max-width: 17.625rem;
-}
-
-.description {
-  background-color: #f2eee8;
 }
 
 .description__list {
@@ -590,6 +589,7 @@ h6 {
 .why {
   background-color: #7f292a;
   color: #f2eee8;
+  border-radius: 0.4375rem;
 }
 
 .why__content {
@@ -617,10 +617,6 @@ h6 {
   border-radius: 0.625rem;
 }
 
-.tariff {
-  background-color: #f2eee8;
-}
-
 .tariff__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -636,18 +632,8 @@ h6 {
 }
 
 .tariff__content__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   position: relative;
-  padding: 0.625rem;
+  padding: 1.25rem;
   width: 12.5rem;
   border-radius: 7px;
   border: 1px solid #7f292a;
@@ -702,6 +688,9 @@ h6 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 1.875rem;
   }
 
@@ -790,6 +779,10 @@ h6 {
 
   .description__item__box--decor {
     width: 15.75rem;
+  }
+
+  .description__item__box--3 {
+    width: 8.3125rem;
   }
 
   .why__content {
@@ -984,9 +977,9 @@ h6 {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-align: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
